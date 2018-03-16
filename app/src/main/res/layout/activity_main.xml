@@ -1,38 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lavan_32.clock.MainActivity">
-
+    tools:context="com.example.lavan_32.clockdigital.MainActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/mm"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:text="10"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/mm"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/mn"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:text="="
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/mn"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/mz"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:text="38"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/mz"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="AM"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
         />
 
-</LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
